@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="329" id="KGk-i7-Jjw" customClass="MovieCell">
+            <rect key="frame" x="0.0" y="0.0" width="417" height="329"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="417" height="328"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Le-6z-gT8">
+                        <rect key="frame" x="8" y="8" width="401" height="312"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3KB-Ph-6ii">
+                                <rect key="frame" x="10" y="5" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="GP5-OV-RQr"/>
+                                    <constraint firstAttribute="height" constant="100" id="P3K-7B-4ld"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vI2-s5-udw">
+                                <rect key="frame" x="120" y="5" width="271" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="gd6-qN-rkY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.23893140069999999" green="1" blue="0.9606733905" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="3KB-Ph-6ii" firstAttribute="leading" secondItem="4Le-6z-gT8" secondAttribute="leading" constant="10" id="Fy6-jj-qty"/>
+                            <constraint firstAttribute="trailing" secondItem="vI2-s5-udw" secondAttribute="trailing" constant="10" id="M3w-dN-W2i"/>
+                            <constraint firstItem="vI2-s5-udw" firstAttribute="top" secondItem="4Le-6z-gT8" secondAttribute="top" constant="5" id="OBc-cv-PR3"/>
+                            <constraint firstItem="3KB-Ph-6ii" firstAttribute="top" secondItem="4Le-6z-gT8" secondAttribute="top" constant="5" id="p9a-aU-mqs"/>
+                            <constraint firstItem="vI2-s5-udw" firstAttribute="leading" secondItem="3KB-Ph-6ii" secondAttribute="trailing" constant="10" id="s5p-Td-lEc"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="4Le-6z-gT8" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="QDm-35-tRT"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="4Le-6z-gT8" secondAttribute="bottom" id="b4D-g3-An9"/>
+                    <constraint firstItem="4Le-6z-gT8" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="qq2-jt-vDJ"/>
+                    <constraint firstItem="4Le-6z-gT8" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="uzY-pn-b3K"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="movieImage" destination="3KB-Ph-6ii" id="dEc-HE-nOQ"/>
+                <outlet property="movieLabel" destination="vI2-s5-udw" id="gWh-7v-SWY"/>
+                <outlet property="view" destination="4Le-6z-gT8" id="cvj-Iw-4fu"/>
+            </connections>
+            <point key="canvasLocation" x="244.5" y="162.5"/>
+        </tableViewCell>
+    </objects>
+</document>

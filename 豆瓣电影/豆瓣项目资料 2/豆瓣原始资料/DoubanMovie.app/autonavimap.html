@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>  
+<html>  
+    <head>  
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no" >  
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">  
+                <title>Hello, world</title>  
+                <style type="text/css">  
+                    html { height:100% }  
+                    body { height:100%; margin:0px; padding:0px }  
+                    #container { height:100% }  
+                    </style>  
+                <script type="text/javascript"  
+                    src="http://api.amap.com/webapi/init?v=1.1">  
+                    </script>     
+                <script type="text/javascript">
+                    
+                    //global var
+                    var autoNaviMap;
+                    
+                    function onloaded() {  
+                        
+                        var str = location.search;
+                        var args = str.split("?");
+                        var retval = "";
+                        if (args[0] != str)
+                        {
+                            //alert("haha");
+                            str = args[1];
+                            args = str.split("&");
+                            lng = args[0];
+                            lat = args[1];
+                            
+                            //actually currently the zoom level is between (3 ~ 18)
+                            //and we will use 10 ~ 18
+                            var point = new AMap.LngLat(lng, lat);
+                            autoNaviMap = new AMap.Map("container", {center:point, level:16});
+                            var marker = new AMap.Marker({  
+                                                         id:"m",  
+                                                         position: point 
+                                                         });// 自定义构造AMap.Marker对象  
+                            autoNaviMap.addOverlays(marker); //加载覆盖物
+                            //autoNaviMap.setZoom(30);
+                            //autoNaviMap.setCenter(point); // 设置地图中心点坐标
+                        }
+                    }  
+                    
+                    function onZoomOut()
+                    {
+                        autoNaviMap.zoomOut();
+                    };
+                    
+                    function onZoomIn()
+                    {
+                        //alert("zoom in");
+                        autoNaviMap.zoomIn();
+                    };
+                    
+                </script>  
+    </head>    
+    
+    <body>    
+        <div id="container"></div>  
+    </body>  
+</html> 

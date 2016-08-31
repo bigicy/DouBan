@@ -1,0 +1,9 @@
+activated_btn2:  4  1  4
+activated_btn2@2x:  8  1  8
+navbar2:  6   1   6
+navbar2@2x:  12   1  12
+tabbar_divline:  1
+tabbar_divline@2x:   2
+tabbar2:   1
+tabbar2@2x:    2
+[2012-8-3 下午12:37:53] brant   o(￣ヘ￣o* ): 单位都是px

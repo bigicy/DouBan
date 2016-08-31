@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  豆瓣电影
+//
+//  Created by lanou on 16/6/20.
+//  Copyright © 2016年 lanou. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define kURLActivityString @"http://project.lanou3g.com/teacher/yihuiyun/lanouproject/activitylist.php"
+#define kURLDoubanActivityString @"http://api.douban.com/v2/event/list?type=all&district=all&loc=108288&photo_cate=image&photo_count=5&start=0&day_type=future&apikey=062bcf31694a52d212836d943bdef876"
+#define kURLDoubanMovieString @"http://v.juhe.cn/movie/movies.today?key=07a45feca5ed751ac4d9961ca351f977&dtype=json&cityid=2"
+
+#define kURLMovieString @"http://project.lanou3g.com/teacher/yihuiyun/lanouproject/movielist.php"
+#define kURLMovieDetailString @"http://project.lanou3g.com/teacher/yihuiyun/lanouproject/searchcinema.php?cinemaId=141"
+#define  kURLCinemaString @"http://project.lanou3g.com/teacher/yihuiyun/lanouproject/cinemalist.php"
+
+#endif /* PrefixHeader_pch */

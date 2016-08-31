@@ -1,0 +1,343 @@
+活动接口文档
+一、列表页面
+
+1、接口：http://project.lanou3g.com/teacher/yihuiyun/lanouproject/activitylist.php
+
+2、请求参数 
+
+3、返回值
+
+	title ： 活动标题
+begin_time :  开始时间
+end_time ：结束时间
+address ：地址
+category_name：活动类型
+participant_count：参加人数
+wisher_count：感兴趣人数
+image：活动图像(先显示占位图像)
+	name：活动举办方
+	category_name：活动类型
+
+{
+    "count": 20,
+    "start": 0,
+    "total": 4344,
+    "events": [
+        {
+            "image": "http://img3.douban.com/view/event_poster/median/public/10f53a2ad8b38c5.jpg",
+            "adapt_url": "http://www.douban.com/location/partner/event/21185304/",
+            "owner": {
+                "name": "国家博物馆",
+                "avatar": "http://img3.douban.com/view/site/small/public/6510ea4ea1cc8e6.jpg",
+                "uid": "127320",
+                "alt": "http://site.douban.com/127320/",
+                "type": "site",
+                "id": "127320",
+                "large_avatar": "http://img3.douban.com/pics/site/icon_default_large.png"
+            },
+            "loc_name": "北京",
+            "alt": "http://www.douban.com/event/21185304/",
+            "id": "21185304",
+            "category": "exhibition",
+            "title": "罗马与巴洛克艺术",
+            "wisher_count": 1975,
+            "has_ticket": false,
+            "content": "展期：2014/4/30 - 2015/2/28（展期以此为准）\r\n地点：北16展厅\r\n主办：中国国家博物馆\r\n　　　意大利文化遗产活动和旅游部文化遗产开发司\r\n　　　罗马历史、艺术、民族人类遗产及博物馆联盟特署\r\n门票：30元（请入馆后至展厅门口购票参观）\r\n\r\n展览详情：http://www.chnmuseum.cn/tabid/236/Default.aspx?ExhibitionLanguageID=388\r\n\r\n【提示】展厅内请勿拍照，请勿触摸展品；二维码导览、微信语音导览即将开放。2014年7-8月将进行一次展品更换，卡拉奇的《青年男子肖像》、卡拉瓦乔的《施洗约翰》届时将展出。\r\n\r\n　　（暑期观众较多，为保证良好参观体验，建议您延期参观或合理安排参观时间，尽量避开周末及假期高峰时段。）\r\n\r\n“罗马与巴洛克艺术”展由中国国家博物馆、意大利文化遗产活动和旅游部文化遗产开发司及罗马历史、艺术、民族人类遗产及博物馆联盟特署联合举办。这是执行中意两国政府达成的五年文化合作计划，继“佛罗伦萨与文艺复兴：名家名作”展之后的又一个精彩展览。\r\n\r\n巴洛克艺术是十七世纪欧洲广为流行的艺术风格。罗马作为巴洛克艺术的发源地再次成为十七世纪意大利和欧洲的艺术中心。聚集在罗马的众多意大利和欧洲艺术名家以其高超的艺术造诣和丰富的创造力，为这座永恒之城留下了大量弥足珍贵的艺术瑰宝。\r\n\r\n为了展现十七世纪罗马的整体艺术风貌特别是罗马巴洛克艺术的独特魅力，中意双方历时一年多精心策划了“罗马与巴洛克艺术”这一主题展览。此次展览汇集了50件（套）十七世纪意大利的绘画、雕塑和工艺品。全部展品精选自罗马威尼斯宫国立博物馆、科西尼宫国立古代艺术馆、巴贝里尼宫国立古代艺术馆、基吉宫巴洛克博物馆、斯巴达美术馆等10余家意大利著名博物馆、艺术馆和相关收藏机构，包括卡拉齐、卡拉瓦乔、贝尼尼、科尔托纳、阿尔加迪、普桑、安德烈亚·萨基、弗朗西斯科·科扎、乔万·巴蒂斯塔·高利、贾钦托·布兰迪等20余名活跃在十七世纪罗马艺术舞台上的艺术大师和著名艺术家的艺术精品，涵盖了以巴洛克为主体的多种艺术风格。\r\n\r\n此次展览以十七世纪罗马艺术史的发展脉络为主线，划分为走向巴洛克及其自然主义的表现、巴洛克雕塑和巴洛克绘画三个部分，重点介绍和展示罗马巴洛克艺术，同时兼顾同时期的其他艺术风格，为广大观众呈现一幅十七世纪的罗马艺术全景画卷。\r\n\r\n国博豆瓣小站：http://site.douban.com/127320/",
+            "can_invite": "no",
+            "album": "127782312",
+            "participant_count": 1645,
+            "image_hlarge": "http://img3.douban.com/view/event_poster/hlarge/public/365aa3c50b5ba01.jpg",
+            "photos": [
+                "http://img3.douban.com/view/photo/photo/public/p2197249325.jpg",
+                "http://img3.douban.com/view/photo/photo/public/p2193380232.jpg",
+                "http://img3.douban.com/view/photo/photo/public/p2192517302.jpg",
+                "http://img5.douban.com/view/photo/photo/public/p2191745057.jpg",
+                "http://img5.douban.com/view/photo/photo/public/p2189803139.jpg"
+            ],
+            "begin_time": "2014-07-22 09:00:00",
+            "geo": "39.905148 116.401711",
+            "image_lmobile": "http://img3.douban.com/view/event_poster/lmobile/public/10f53a2ad8b38c5.jpg",
+            "category_name": "展览",
+            "loc_id": "108288",
+            "end_time": "2014-10-16 17:00:00",
+            "address": "北京 东城区 东长安街16号中国国家博物馆"
+        },
+        {
+            "subcategory_name": "主题放映",
+            "begin_time": "2014-08-01 19:00:00",
+            "image": "http://img3.douban.com/view/event_poster/median/public/4cdefe4f77918b1.jpg",
+            "adapt_url": "http://www.douban.com/location/partner/event/22239297/",
+            "owner": {
+                "name": "文慧园路三号",
+                "avatar": "http://img3.douban.com/view/site/small/public/643160c6b2525ac.jpg",
+                "uid": "cfa",
+                "alt": "http://site.douban.com/cfa/",
+                "type": "site",
+                "id": "500342",
+                "large_avatar": "http://img3.douban.com/pics/site/icon_default_large.png"
+            },
+            "loc_name": "北京",
+            "alt": "http://www.douban.com/event/22239297/",
+            "id": "22239297",
+            "category": "film",
+            "title": "2014年8月中国电影资料馆学术放映：清凉一夏",
+            "wisher_count": 531,
+            "has_ticket": false,
+            "content": "2014年8月中国电影资料馆学术放映：清凉一夏\r\n\r\n注：不标明时间的均为晚上7点放映\r\n\r\n8.1  《圣殇》\r\nhttp://movie.douban.com/subject/10487226/\r\n\r\n8.2  七夕节特别放映  \r\n《大话西游全集》（1点）\r\nhttp://movie.douban.com/subject/1292213/\r\n《出租汽车司机》（4点30）\r\nhttp://movie.douban.com/subject/1292222/\r\n《花样年华》（7点15）\r\nhttp://movie.douban.com/subject/1291557/\r\n8.3  《东邪西毒》（下午2点）【V电影】\r\nhttp://movie.douban.com/subject/3726072/\r\n\r\n8.5  《鼠国流浪记》\r\nhttp://movie.douban.com/subject/1498825/\r\n8.6  《武松和潘金莲》【片前讲解】\r\nhttp://movie.douban.com/subject/25853103/\r\n8.7  《北极故事》\r\nhttp://movie.douban.com/subject/2111619/\r\n8.8  《炽爱》\r\nhttp://movie.douban.com/subject/2062967/\r\n8.9  《夜半歌声》（下午1点）【V电影】\r\nhttp://movie.douban.com/subject/1304826/\r\n8.9  《大都会》（4点）\r\nhttp://movie.douban.com/subject/1298107/\r\n8.12 《国王与小鸟》\r\nhttp://movie.douban.com/subject/1308366/\r\n8.13 《早春二月》【精致修复版】【片前讲解】\r\nhttp://movie.douban.com/subject/1401269/\r\n8.14 《海龟奇妙之旅》\r\nhttp://movie.douban.com/subject/4018288/\r\n8.15 《巴黎谍影》\r\nhttp://movie.douban.com/subject/3231686/\r\n8.16 《海盗电台》（4点）\r\nhttp://movie.douban.com/subject/3007773/\r\n8.19 《波斯波利斯》\r\nhttp://movie.douban.com/subject/1962116/\r\n8.20 《香魂女》【片前讲解】\r\nhttp://movie.douban.com/subject/1304534/\r\n8.21 《时尚大帝》\r\nhttp://movie.douban.com/subject/2042437/\r\n8.22 《我曾侍候过英国国王》\r\nhttp://movie.douban.com/subject/1766827/\r\n8.23 《黑鹰坠落》（4点）\r\nhttp://movie.douban.com/subject/1291824/\r\n8.26 《钢铁巨人》\r\nhttp://movie.douban.com/subject/1293863/\r\n8.30 《低俗小说》（4点）\r\nhttp://movie.douban.com/subject/1291832/",
+            "can_invite": "no",
+            "album": "136382064",
+            "participant_count": 582,
+            "image_hlarge": "http://img3.douban.com/view/event_poster/hlarge/public/82c74a3c874da2f.jpg",
+            "photos": [],
+            "address": "北京 海淀区 中国电影资料馆（积水潭北200米小西天牌楼）",
+            "geo": "39.952911 116.368988",
+            "image_lmobile": "http://img3.douban.com/view/event_poster/lmobile/public/4cdefe4f77918b1.jpg",
+            "category_name": "电影",
+            "loc_id": "108288",
+            "end_time": "2014-08-31 21:00:00"
+        }
+    ]
+}
+
+
+
+
+
+
+
+电影接口文档
+一、列表页面
+
+1、接口    http://project.lanou3g.com/teacher/yihuiyun/lanouproject/movielist.php
+
+2、请求参数：
+
+3、返回值
+	
+	
+	movieName：电影名
+	pic_url：图片 
+	movieid：电影编号
+	
+
+{
+    "reason":"success",
+    "result":[
+        {
+            "movieId":"216609",
+            "movieName":"诡八楼",
+            "pic_url":"http:\/\/v.juhe.cn\/movie\/picurl?2583083"
+        },
+        {
+            "movieId":"216391",
+            "movieName":"摩登森林之美食总动员",
+            "pic_url":"http:\/\/v.juhe.cn\/movie\/picurl?2583246"
+        },
+        {
+            "movieId":"215874",
+            "movieName":"从哪来，到哪去",
+            "pic_url":"http:\/\/v.juhe.cn\/movie\/picurl?2583542"
+        },
+        {
+            "movieId":"181874",
+            "movieName":"动物也疯狂",
+            "pic_url":"http:\/\/v.juhe.cn\/movie\/picurl?2583243"
+        },
+        {
+            "movieId":"179197",
+            "movieName":"绝密跟踪",
+            "pic_url":"http:\/\/v.juhe.cn\/movie\/picurl?2583081"
+        }
+    ],
+    "error_code":0
+}
+
+二、详情页面
+
+
+1、接口：http://project.lanou3g.com/teacher/yihuiyun/lanouproject/searchmovie.php?movieId=216609
+
+2、请求参数：190537    电影的id，从上一个接口获取
+
+3、返回值
+
+	plot_simple：简介
+	title：电影名字
+	genres：分类
+	country：国家
+	runtime：时间
+	poster：图片 
+	rating_count: 评论人数
+	rating：评分
+	release_date：上映时间
+	actors：制作人信息
+
+{
+    "resultcode":"200",
+    "reason":"成功的返回",
+    "result":{
+        "movieid":"190537",
+        "rating":"7.1",
+        "genres":"动作\/冒险\/惊悚",
+        "runtime":"126 min",
+        "language":"英语",
+        "title":"敢死队3",
+        "poster":"http:\/\/v.juhe.cn\/movie\/img?138862",
+        "writers":"卡特琳·贝内迪特,达夫·卡拉汉姆,...",
+        "film_locations":"美国|法国",
+        "directors":"派特里克·休斯",
+        "rating_count":"4925",
+        "actors":"西尔维斯特·史泰龙 Sylvester Stallone,杰森·斯坦森 Jason Statham,梅尔·吉布森 Mel Gibson,李连杰 Jet Li",
+        "plot_simple":"　　在此次第三部的故事中，巴尼（史泰龙饰）与克里斯马斯（杰森·斯坦森 饰）领衔的敢死队将正面迎战昔日战友、如今的军火枭雄康拉德·斯通班克斯（梅尔·吉布森 饰）。斯通班克斯曾侥幸死里逃生过一次，现在他对敢死队下达了绝杀令。巴尼则另有一番打算：为迎战强敌，巴尼决定给敢死队注入新鲜血液，招募了更快更强的高科技战斗新生，搭配长枪硬炮的硬汉前辈，展开一番大决战。",
+        "year":"2014",
+        "country":"美国|法国",
+        "type":"null",
+        "release_date":"20140901",
+        "also_known_as":"轰天猛将3.....(香港译名),浴血任务3.....(台湾译名) "
+    },
+    "error_code":0
+}
+
+影院接口文档
+一、列表页面
+
+接口：http://project.lanou3g.com/teacher/yihuiyun/lanouproject/cinemalist.php
+
+请求参数：
+		
+
+返回值
+
+		id  影院id
+		cinemaName  影院名称
+		address  影院地址
+		telephone  影院电话
+		trafficRoutes  影院乘车路线
+
+
+{
+    "reason":"success",
+    "result":{
+        "data":[
+            {
+                "id":"141",
+                "cityName":"北京",
+                "cinemaName":"北京博纳影城朝阳门旗舰店",
+                "address":"北京市朝阳区三丰北里2号楼悠唐生活广场B1层（朝阳门钱柜对面）",
+                "telephone":"010-59775660",
+                "latitude":"39.92223",
+                "longitude":"116.4388",
+                "trafficRoutes":"乘坐101电，109电，110，112电，420，750路公交在朝阳门外站下车，悠唐生活广场地下一层"
+            },
+            {
+                "id":"142",
+                "cityName":"北京",
+                "cinemaName":"北京橙天嘉禾吉彩影城",
+                "address":"北京海淀区玉海园五里22号配套商业楼（原吉彩体育馆）",
+                "telephone":"",
+                "latitude":"39.92282",
+                "longitude":"116.2596",
+                "trafficRoutes":"地铁一号线 玉泉路下车，B2出口出，乘坐507、78、981、612、运通114 玉海园东门下车即到。"
+            },
+            {
+                "id":"143",
+                "cityName":"北京",
+                "cinemaName":"首都电影院（金融街店）",
+                "address":"金融大街18号金融街购物中心二期地下一层",
+                "telephone":"010-66086662",
+                "latitude":"39.91509",
+                "longitude":"116.3604",
+                "trafficRoutes":"7路、21路、38路、44路、50路、46路、68路、84路、387路、423路、456路、477路、618路、691路、694路、939路复兴门南站\n"
+            }
+        ],
+        "page":1,
+        "pagesize":"20",
+        "totalpage":8
+    },
+    "error_code":0
+}
+
+
+二、影院详情页面
+
+接口：http://project.lanou3g.com/teacher/yihuiyun/lanouproject/searchcinema.php?cinemaId=141
+
+请求参数：
+		
+		cinemaId  影院id
+
+返回值：
+
+		lists：影院上映电影列表
+		movieName：电影名字
+		pic_url：电影图片
+		broadcast：播放信息
+		hall：播放厅
+		price：票价
+		time：播放时间
+		type：类型
+		language：语言
+	
+
+
+{
+    "reason":"success",
+    "result":{
+        "cinema_info":{
+            "id":"141",
+            "name":"北京博纳影城朝阳门旗舰店",
+            "city":"北京",
+            "telephone":"010-59775660",
+            "address":"北京市朝阳区三丰北里2号楼悠唐生活广场B1层（朝阳门钱柜对面）"
+        },
+        "lists":[
+            {
+                "movieId":"169864",
+                "movieName":"猩球崛起：黎明之战",
+                "pic_url":"http:\/\/v.juhe.cn\/movie\/picurl?2583078",
+                "broadcast":[
+                    {
+                        "hall":"7号厅",
+                        "language":"英文版",
+                        "price":"53",
+                        "ticket_url":"http:\/\/piao.mtime.com\/onlineticket\/showtime\/107443396\/",
+                        "time":"12:00",
+                        "type":"3D"
+                    },
+                    {
+                        "hall":"7号厅",
+                        "language":"英文版",
+                        "price":"53",
+                        "ticket_url":"http:\/\/piao.mtime.com\/onlineticket\/showtime\/107443397\/",
+                        "time":"14:30",
+                        "type":"3D"
+                    }
+                ]
+            },
+            {
+                "movieId":"179197",
+                "movieName":"绝密跟踪",
+                "pic_url":"http:\/\/v.juhe.cn\/movie\/picurl?2583081",
+                "broadcast":[
+                    {
+                        "hall":"6号厅",
+                        "language":"中文版",
+                        "price":"43",
+                        "ticket_url":"http:\/\/piao.mtime.com\/onlineticket\/showtime\/107443389\/",
+                        "time":"11:10",
+                        "type":"2D"
+                    },
+                    {
+                        "hall":"6号厅",
+                        "language":"中文版",
+                        "price":"43",
+                        "ticket_url":"http:\/\/piao.mtime.com\/onlineticket\/showtime\/107443390\/",
+                        "time":"13:10",
+                        "type":"2D"
+                    }
+                ]
+            }
+        ]
+    },
+    "error_code":0
+}
